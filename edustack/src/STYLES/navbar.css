@@ -1,0 +1,47 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 25px;
+}
+
+/* Styling the logo */
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+/* Styling the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the navigation links horizontally */
+    align-items: center; /* Center the navigation links vertically */
+    margin-right: 21rem;
+}
+
+.nav-links li a {
+    color: rgba(255, 255, 255, 0.642);
+    text-decoration: none;
+    padding: 25px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.nav-links li a:hover {
+    color: white;
+}

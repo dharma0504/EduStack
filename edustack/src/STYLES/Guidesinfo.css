@@ -1,0 +1,69 @@
+/* Unique container class */
+.unique-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Unique heading class */
+.unique-heading {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Unique unordered list */
+.unique-ul {
+  padding: 0;
+}
+
+/* Unique resource list item */
+.unique-li-resource {
+  background-color: #B3AAFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+/* Unique hover effect for resource list item */
+.unique-li-resource:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Unique heading for resource */
+.unique-resource-h2 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* Unique paragraph for resource */
+.unique-resource-p {
+  color: black;
+  margin-bottom: 15px;
+}
+
+/* Unique anchor for resource */
+.unique-resource-a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+/* Unique hover effect for anchor in resource */
+.unique-resource-a:hover {
+  color: black;
+}
+
+.unique-section-heading{
+  color: white;
+}
+
+li{
+  list-style: none;
+}

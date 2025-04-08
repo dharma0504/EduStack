@@ -1,0 +1,122 @@
+/* Roadmaps.css */
+
+.roadmaps-container {
+  margin: 50px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.roadmap-wrapper {
+  background: linear-gradient(130deg,rgba(19,7,46,1) 0%, rgba(63,33,130,1) 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  height: 450px;
+  margin-top: 100px;
+}
+
+
+
+
+.roadmap-heading p {
+  font-size: 18px;
+  color: black;
+  position: relative;
+  text-align: center;
+  top: -30px; /* Adjust the top position as needed */
+  left: 50%; /* Position it in the center */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: #B3AAFF;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  margin-top: none;
+  width: 30%;
+}
+
+
+.roadmap-grid-wrapper {
+  width: 100%; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 180px); /* Four boxes per row */
+  gap: 25px;
+  justify-content: center;
+}
+
+.roadmap-grid a {
+  text-decoration: none;
+  color: black;
+  background-color: #B3AAFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.roadmap-grid a:hover {
+  background-color: #0056b3;
+}
+
+
+/* AcademicRoadmaps.css */
+
+.academic-roadmaps-container {
+  margin: 50px auto 20px; /* Reduced bottom margin */
+  max-width: 800px;
+  text-align: center;
+}
+
+.academic-roadmap-wrapper {
+  background: linear-gradient(130deg, rgba(19,7,46,1) 0%, rgba(63,33,130,1) 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Reduced bottom margin */
+  margin-top: none;
+}
+
+.academic-roadmap-heading p {
+  font-size: 18px;
+  color: black;
+  position: relative;
+  text-align: center;
+  top: -30px; /* Adjust the top position as needed */
+  left: 50%; /* Position it in the center */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: #B3AAFF;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  margin-top: none;
+  width: 30%;
+}
+
+.academic-roadmap-grid-wrapper {
+  width: 100%;
+  max-width: 600px; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+.academic-roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two boxes per row */
+  gap: 15px; /* Decreased the gap */
+  justify-content: center;
+}
+
+.academic-roadmap-grid a {
+  text-decoration: none;
+  color: black;
+  background-color: #B3AAFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.academic-roadmap-grid a:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for role-based roadmaps */

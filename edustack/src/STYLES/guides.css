@@ -1,0 +1,45 @@
+/* Add this CSS in the same file or import a CSS file */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.card {
+  height: 9rem;
+  width: 18rem;
+  grid-template-rows: 50px 1fr;
+  margin-top: 50px;
+  border-radius: 20px;
+  background: rgb(19,7,46);
+  background: linear-gradient(72deg, rgba(19,7,46,1) 0%, rgba(63,33,130,1) 100%);
+  font-size: 38px;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  font-family: Poppins;
+  /* Add transition for the border */
+  transition: border 0.3s ease;
+}
+
+.tagline {
+  color: white;
+  margin-top: 25px;
+}
+
+.tagline-2 {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card:hover {
+  border: 1px solid white;
+}
